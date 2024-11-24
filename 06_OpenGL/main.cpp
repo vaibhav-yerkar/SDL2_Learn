@@ -7,7 +7,9 @@
 #include <iostream>
 // SDL library 
 #include <SDL.h>
-// Glad Library 
+// Glad Library
+// GLAD manages function pointers for OpenGL. It is useful becuase OpenGL is only really a standard/specification it is up to the driver manufacturer to implement the specification to a driver that the specific graphics card supports.
+// This glad folder was generated from glad.dav1d.de based on your device and requirement 
 #include <glad/glad.h>
 
 int main()
