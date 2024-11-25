@@ -7,7 +7,9 @@
 #include <iostream>
 
 // SDL2 file
-#include <SDL.h>
+#include <SDL.h> //For linux and winodw use <SDL2/SDL.h>
+
+
 
 int main(int argc, char* argv[])
 {
