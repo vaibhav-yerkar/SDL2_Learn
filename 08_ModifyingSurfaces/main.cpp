@@ -8,7 +8,7 @@
 #include <iostream>
 
 // SDL2 file
-#include <SDL.h>
+#include <SDL.h> //For linux and windows use <SDL2/SDL.h>
 
 // This function will modify the pixel value of the screen based on the event trigger
 void SetPixel(SDL_Surface* surface, int x, int y, uint8_t r, uint8_t g, uint8_t b)
